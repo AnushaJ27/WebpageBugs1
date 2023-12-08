@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Grocery Store</title>
+  <style>
+    /* Your existing styles remain unchanged */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Grocery Store</h1>
+    <form id="search-form">
+      <label for="search-input">Search:</label> <!-- Added label for search input -->
+      <input type="text" id="search-input" placeholder="Search">
+      <button type="submit">Search</button> <!-- Changed input type to button -->
+    </form>
+  </header>
+
+  <main>
+    <div class="filter">
+      <label for="sort-select">Sort By:</label>
+      <select id="sort-select">
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+      </select>
+    </div>
+
+    <div class="filter">
+      <label for="category-select">Filter By Category:</label>
+      <select id="category-select">
+        <option value="all">All</option>
+        <option value="fruits">Fruits</option>
+        <option value="vegetables">Vegetables</option>
+        <option value="dairy">Dairy</option>
+        <option value="meat">Meat</option>
+      </select>
+    </div>
+
+    <div id="product-container"></div>
+  </main>
+
+  <footer>
+    <h3>Delivery Address</h3>
+    <form id="address-form">
+      <label for="address-input">Address:</label> <!-- Added label for address input -->
+      <input type="text" id="address-input" placeholder="Enter your address">
+      <button type="submit">Submit</button> <!-- Changed input type to button -->
+    </form>
+  </footer>
+
+  <script>
+    // JavaScript Code
+    // (Your existing JavaScript code remains unchanged)
+  </script>
+</body>
+</html>
